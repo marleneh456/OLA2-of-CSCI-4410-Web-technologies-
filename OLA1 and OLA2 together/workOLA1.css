@@ -1,0 +1,106 @@
+/* Name: Marlene Habib */
+/* Instructor: Dr. Yang */
+/* workOLA1.css */
+/* Date: 02-12-2024 */
+/* Due Date: 02-15-2024 */
+
+/* styles for the top of the website */
+h1{ 
+ color: #6495ED;
+ text-align: center;
+ font-size: 40px;
+ font-family: verdana;
+}
+
+/* styles for hobbies and favorite movies */
+h2{
+ color: #ff66ff;
+ text-align: left;
+ font-family: monospace;
+}
+
+/* styles for favorite picture */
+h4{
+ color: #cc0052;
+ text-align: left;
+ font-family: Arial;
+}
+
+h6{
+ color: red;
+ font-family: Arial;
+ font-size: 15px;
+}
+
+/* styles for the introduction */
+p{ 
+ color: #0047ab;
+ text-align: center;
+ font-size: 25px;
+}
+
+/* style for the body of the website */
+body{
+ background-color: #e6ccff;
+}
+
+/* style for the table */
+table
+{
+ background-color: green;
+}
+
+/* styles for the table header */
+th
+{
+  background-color: #00CED1; 
+  font-family: system-ui; 
+}
+
+/* styles for the data table */
+td
+{
+    background-color: lightgreen;
+    font-family: Helvetica;
+}
+
+/* styles for the list items */
+li
+{
+    background-color: pink;
+    font-family: Helvetica;
+    color: white;
+}
+ul
+{
+    background-color: pink;
+}
+
+/* Style the navigation links */
+div ul {
+    list-style-type: none;
+    margin: 0;  
+    padding:  20px;
+  	overflow: hidden;
+	background-color: purple;
+}
+
+div li {
+    float: left;
+    border-left:3px solid #ff99aa;
+}
+
+div li a {
+    display: block;  
+    color: white;
+    text-align:  center; 
+    padding: 15px; 
+    text-decoration: none; 
+	background-color: #ea8587;
+}
+
+/* Change the color of links on hover */
+div ul li a:hover {
+    background-color: #ea526f;
+    color: orange;
+}
